@@ -1,0 +1,24 @@
+# MODÈLE de fichier de publication Wesnoth (versionné, SANS secret).
+#
+# Pour publier l'add-on :
+#   1. Copie ce fichier en "_server.pbl" (sans .example) dans ce même dossier.
+#   2. Remplis "email" et "passphrase" avec tes valeurs.
+#   3. Le vrai "_server.pbl" est ignoré par git (.gitignore) → garde-le local,
+#      ne le committe jamais (ce dépôt est PUBLIC).
+# Le bouton "Publier" apparaît alors dans le menu Extensions du jeu (version 1.19).
+
+title="Forge-Garde"
+type="era"
+icon="units/forge-garde/forge-thane.png"
+version="1.0.0"
+author="athena50"
+email="TON-EMAIL@example.com"
+passphrase="METS-TA-PASSPHRASE-ICI"
+
+description="An original multiplayer faction: runic dwarven engineers, steam automatons and rune-engraved constructs. Slow but durable, anti-magic and anti-poison, built for sieges and positional play. Mechanical constructs self-repair, ignore poison/drain/plague, and leave wrecks that an adjacent engineer can rebuild. Ships two eras: 'Default + Forge-Garde' and a Forge-Garde mirror. 18 units, full level-up trees, custom art."
+
+[translation]
+    language="fr_FR"
+    title="Forge-Garde"
+    description="Une faction multijoueur originale : nains ingénieurs runiques, automates de vapeur et constructs gravés de runes. Lente mais increvable, anti-magie et anti-poison, taillée pour le siège et le combat positionnel. Les constructs (mécaniques) s'auto-réparent, ignorent poison/drain/peste et laissent une carcasse qu'un ingénieur adjacent peut reconstruire. Deux ères fournies : « Défaut + Forge-Garde » et un miroir Forge-Garde. 18 unités, arbres d'évolution complets, art custom."
+[/translation]
