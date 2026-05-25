@@ -27,6 +27,28 @@ Pour une autre machine : copier le dossier `Forge_Garde/` dans `<userdata>/data/
    - **« Forge-Garde (solo) »** (`era_forge_garde_solo`) — miroir Forge-Garde, pratique pour tester/équilibrer.
 4. Côté faction, choisir **Forge-Garde**.
 
+## Publier sur le serveur d'extensions
+
+L'add-on se publie **depuis le client de jeu** (pas via un site). Catalogue web de référence :
+**https://addons.wesnoth.org/** (instance **1.19.x**).
+
+1. **Préparer le fichier de publication.** À la racine de `Forge_Garde/`, copie
+   `_server.pbl.example` en **`_server.pbl`**, puis renseigne `email` et `passphrase`.
+   - ⚠️ Le vrai `_server.pbl` contient un **secret** (passphrase) : il est **gitignoré**,
+     ne le committe pas (le dépôt est public).
+   - La **passphrase** protège les futures mises à jour — garde-la précieusement, sa perte
+     empêche de mettre à jour l'add-on publié.
+2. **Lancer Wesnoth 1.19**, menu principal → **Extensions (Add-ons)**.
+3. Comme `_server.pbl` existe, une icône **« Publier »** apparaît en face de **Forge-Garde** →
+   clique dessus. L'add-on est envoyé sur le serveur de la version **1.19**.
+4. **Mettre à jour** plus tard : incrémente `version=` dans `_server.pbl`, puis re-Publier
+   (la passphrase authentifie la mise à jour).
+
+> Tu publies sur le serveur **1.19 (développement)** → seuls les joueurs en 1.19 le verront.
+> Pour la **stable (1.18)**, il faut d'abord vérifier que l'add-on charge sur 1.18.
+
+Partage **sans serveur** (zip à installer à la main) : voir [`INSTALL.md`](INSTALL.md).
+
 ## Roster v1 (8 recrues N1 → N2, meneur N2 → N3)
 
 | Recrue (N1) | Rôle | Particularité |
