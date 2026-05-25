@@ -16,6 +16,7 @@ L'add-on est relié par lien symbolique dans le userdata du jeu :
 ```
 
 Pour une autre machine : copier le dossier `Forge_Garde/` dans `<userdata>/data/add-ons/`.
+**Guide pas-à-pas (multi-OS) : voir [`INSTALL.md`](INSTALL.md).**
 
 ## Jouer
 
