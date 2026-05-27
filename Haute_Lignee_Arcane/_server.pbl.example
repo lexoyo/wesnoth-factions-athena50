@@ -1,0 +1,20 @@
+# MODÈLE de publication (versionné, SANS secret).
+# Pour publier : copie ce fichier en "_server.pbl", remplis "email" et "passphrase".
+# Le vrai "_server.pbl" est gitignoré (dépôt public) -> garde-le local.
+# Le bouton "Publier" apparaît alors dans le menu Extensions du jeu (version 1.19).
+
+title="La Haute Lignée Arcane"
+type="era"
+icon="units/high-arcane-lineage/archonte-imperial.png"
+version="1.0.0"
+author="athena50"
+email="TON-EMAIL@example.com"
+passphrase="METS-TA-PASSPHRASE-ICI"
+
+description="An elite, expensive multiplayer faction: high-born arcane mages of ancient imperial bloodlines. Few units, very costly, very powerful. Devastating arcane/fire/cold magic, leadership and aegis auras, summoner and a monstrous Imperial Archon leader. Weak village control, fragile to swarms, poison and massed ranged fire. Ships two eras: 'Default + High Arcane Lineage' and a mirror era."
+
+[translation]
+    language="fr_FR"
+    title="La Haute Lignée Arcane"
+    description="Une faction multijoueur élitiste et chère : mages nobles de lignées impériales. Peu d'unités, très coûteuses, très puissantes. Magie arcane/feu/froid dévastatrice, auras de commandement et d'égide, invocation, et un meneur monstrueux, l'Archonte Impérial. Faible contrôle de villages, fragile face au nombre, au poison et à la pression à distance. Deux ères fournies : « Défaut + Haute Lignée Arcane » et une ère miroir."
+[/translation]
